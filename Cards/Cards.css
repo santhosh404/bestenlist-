@@ -1,8 +1,64 @@
-hr{
-    border: 1px solid black;
+hr {
+  border: 1px solid black;
 }
 
-h3{
-    text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+h3 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: slategrey;
+  color: snow;
+  animation-duration: 900ms;
+  animation-name: bounceIn;
+}
+@keyframes bounceIn{
+    0%{
+      opacity: 0;
+      transform: scale(0.5) translate3d(0,0,0);
+    }
+    50%{
+      opacity: 0.9;
+      transform: scale(1.1);
+    }
+    80%{
+      opacity: 1;
+      transform: scale(0.89);
+    }
+    100%{
+      opacity: 1;
+      transform: scale(1) translate3d(0,0,0);
+    }
+  }
+
+
+
+.card-1:hover {
+  box-shadow: 5px 5px 5px 2px rgb(1, 1, 1, 0.6);
+}
+
+.card-2:hover {
+  box-shadow: 5px 5px 5px 1px rgb(1, 1, 1, 0.6);
+}
+
+.card-3:hover {
+  box-shadow: 5px 5px 5px 1px rgb(1, 1, 1, 0.6);
+}
+
+.card-4:hover {
+  box-shadow: 5px 5px 5px 1px rgb(1, 1, 1, 0.6);
+}
+
+.card-5:hover {
+  box-shadow: 5px 5px 5px 1px rgb(1, 1, 1, 0.6);
+}
+
+.card-6:hover {
+  box-shadow: 5px 5px 5px 1px rgb(1, 1, 1, 0.6);
+}
+
+.card-7:hover {
+  box-shadow: 5px 5px 5px 1px rgb(1, 1, 1, 0.6);
+}
+
+.card-8:hover {
+  box-shadow: 5px 5px 5px 1px rgb(1, 1, 1, 0.6);
 }
