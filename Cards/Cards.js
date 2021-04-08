@@ -6,15 +6,18 @@ class Cards extends Component {
   render() {
     return (
       <div>
+        <div class="heading-anime">
         <h3>CARDS</h3>
+        </div>
         <hr />
         <br />
 
         <div class="container">
           <div class="row">
             <div class="col-sm-3 mb-4">
-              <div class="card border-dark" style={{ height: "245px" }}>
-                <div class="card-header border-dark">01 REQUIREMENT ANALYSIS</div>
+              <div class="card-1">
+              <div class="card border-info" style={{ height: "245px",border: "2px solid"}}>
+              <div class="card-header border-info" style={{border:"0.5px solid", color:"white", backgroundColor:"rgb(91, 192, 222)"}}>01 REQUIREMENT ANALYSIS</div>
 
                 <div class="card-body">
                   <p class="card-text">
@@ -24,10 +27,13 @@ class Cards extends Component {
                   </p>
                 </div>
               </div>
+              </div>
             </div>
+
             <div class="col-sm-3 mb-4">
-              <div class="card border-dark">
-                <div class="card-header border-dark">02 PLANNING & WIRE-FRAMING</div>
+              <div class="card-2">
+              <div class="card border-info" style={{border: "2px solid"}}>
+                <div class="card-header border-info" style={{border: "0.5px solid", color:"white", backgroundColor:"rgb(91, 192, 222)"}}>02 PLANNING & WIRE-FRAMING</div>
                 <div class="card-body">
                   <p class="card-text">
                     After analysing the SOW document with the client, we
@@ -35,12 +41,13 @@ class Cards extends Component {
                     engineering team will plan and prepare
                   </p>
                 </div>
+                </div>
               </div>
             </div>
             <div class="col-sm-3 mb-4">
-              <div class="card border-dark" style={{ height: "245px" }}>
-                <div class="card-header border-dark">03 UI DESIGN & PROTOTYPING</div>
-
+              <div class="card-3">
+              <div class="card border-info" style={{ height: "245px", border:"2px solid"}}>
+                <div class="card-header border-info" style={{ border: "0.5px solid", color:"white", backgroundColor:"rgb(91, 192, 222)"}}>03 UI DESIGN & PROTOTYPING</div>
                 <div class="card-body">
                   <p class="card-text">
                     Based on the wireframe, the design phrase will be initiated.
@@ -48,11 +55,13 @@ class Cards extends Component {
                     product or service.
                   </p>
                 </div>
+                </div>
               </div>
             </div>
             <div class="col-sm-3 mb-4">
-              <div class="card border-dark" style={{ height: "245px" }}>
-                <div class="card-header border-dark">04 CODING & DEVELOPMENT</div>
+              <div class="card-4">
+              <div class="card border-info" style={{ height: "245px" , border:"2px solid "}}>
+                <div class="card-header border-info" style={{border:"0.5px solid", color:"white", backgroundColor:"rgb(91, 192, 222)"}}>04 CODING & DEVELOPMENT</div>
 
                 <div class="card-body">
                   <p class="card-text">
@@ -60,11 +69,14 @@ class Cards extends Component {
                     will begin the coding and development of the product.
                   </p>
                 </div>
+                
+                </div>
               </div>
             </div>
             <div class="col-sm-3 mb-4">
-              <div class="card border-dark" style={{ height: "255px" }}>
-                <div class="card-header">05 UNIT TESTING</div>
+              <div class="card-5">
+              <div class="card border-info" style={{ height: "255px", border: "2px solid"}}>
+                <div class="card-header border-info" style={{ border:"1px solid", color:"white", backgroundColor:"rgb(91, 192, 222)"}}>05 UNIT TESTING</div>
                 <div class="card-body">
                   <p class="card-text">
                     Each unit of the product will be tested to check the
@@ -72,12 +84,13 @@ class Cards extends Component {
                     this stage.
                   </p>
                 </div>
+                </div>
               </div>
             </div>
             <div class="col-sm-3 mb-4">
-              <div class="card border-dark" style={{ height: "255px" }}>
-                <div class="card-header">06 GUIDED ACCEPTANCE TESTING</div>
-
+              <div class="card-6">
+              <div class="card border-info" style={{ height: "255px", border:"2px solid" }}>
+                <div class="card-header border-info" style={{border:"0.5px solid", color:"white", backgroundColor:"rgb(91, 192, 222)"}}>06 GUIDED ACCEPTANCE TESTING</div>
                 <div class="card-body">
                   <p class="card-text">
                     After each unit of the product is tested, our QA team will
@@ -85,11 +98,13 @@ class Cards extends Component {
                     product will be tested for checking the functionality
                   </p>
                 </div>
+                </div>
               </div>
             </div>
             <div class="col-sm-3 mb-4">
-              <div class="card border-dark" style={{ height: "255px" }}>
-                <div class="card-header">07 RELEASE & IMPLEMENTATION</div>
+              <div class="card-7">
+              <div class="card border-info" style={{ height: "255px",border: "2px solid"}}>
+                <div class="card-header border-info" style={{border: "0.5px solid", color:"white", backgroundColor:"rgb(91, 192, 222)"}}>07 RELEASE & IMPLEMENTATION</div>
                 <div class="card-body">
                   <p class="card-text">
                     After the successful testing and quality checking by our QA
@@ -98,11 +113,13 @@ class Cards extends Component {
                     rectified on spot.
                   </p>
                 </div>
+                </div>
               </div>
             </div>
             <div class="col-sm-3 mb-4">
-              <div class="card border-dark" style={{ height: "255px" }}>
-                <div class="card-header">08 TRAINING & SUPPORT</div>
+              <div class="card-8">
+              <div class="card border-info" style={{ height: "255px", border:"2px solid"}}>
+                <div class="card-header border-info" style={{border:"0.5px solid", color:"white", backgroundColor:"rgb(91, 192, 222)"}}>08 TRAINING & SUPPORT</div>
 
                 <div class="card-body">
                   <p class="card-text">
@@ -111,6 +128,7 @@ class Cards extends Component {
                     Furthermore, any kind of immediate support in the form of
                     upgrade will also be done by us.
                   </p>
+                </div>
                 </div>
               </div>
             </div>
@@ -122,3 +140,4 @@ class Cards extends Component {
 }
 
 export default Cards;
+
