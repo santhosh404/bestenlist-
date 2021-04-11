@@ -1,35 +1,38 @@
+.whole-div {
+  margin-top: 2%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
 hr {
   border: 1px solid black;
 }
 
-h3 {
+.heading-anime {
   text-align: center;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   background-color: slategrey;
   color: snow;
-  animation-duration: 900ms;
-  animation-name: bounceIn;
+  /* animation-duration: 900ms;
+  animation-name: bounceIn; */
 }
-@keyframes bounceIn{
-    0%{
-      opacity: 0;
-      transform: scale(0.5) translate3d(0,0,0);
-    }
-    50%{
-      opacity: 0.9;
-      transform: scale(1.1);
-    }
-    80%{
-      opacity: 1;
-      transform: scale(0.89);
-    }
-    100%{
-      opacity: 1;
-      transform: scale(1) translate3d(0,0,0);
-    }
+/* @keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translate3d(0, 0, 0);
   }
-
-
+  50% {
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(0.89);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+} */
 
 .card-1:hover {
   box-shadow: 5px 5px 5px 2px rgb(1, 1, 1, 0.6);
@@ -61,4 +64,54 @@ h3 {
 
 .card-8:hover {
   box-shadow: 5px 5px 5px 1px rgb(1, 1, 1, 0.6);
+}
+
+.head-para {
+  text-align: justify;
+}
+
+.head-para-2 {
+  text-align: justify;
+}
+.image {
+  margin-left: 20%;
+  height: 60%;
+  width: 60%;
+  box-shadow: 5px 5px 5px 2px rgb(1, 1, 1, 0.7);
+  animation-duration: 1000ms;
+  animation-name: bounceIn;
+}
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) translate3d(0, 0, 0);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+  80% {
+    opacity: 1;
+    transform: scale(0.89);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translate3d(0, 0, 0);
+  }
+}
+
+.Heading-3 {
+  text-align: center;
+}
+
+.image-2 {
+  margin-left: 45%;
+  height: 10%;
+  width: 10%;
+  animation: spin 5s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  50%{ transform: rotate(180deg);}
+  100% { transform: rotate(360deg); }
 }
