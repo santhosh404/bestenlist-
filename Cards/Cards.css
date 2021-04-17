@@ -1,6 +1,6 @@
 .whole-div {
   margin-top: 2%;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family:'Times New Roman', Times, serif
 }
 
 hr {
@@ -9,7 +9,7 @@ hr {
 
 .heading-anime {
   text-align: center;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family:'Courier New', Courier, monospace;
   background-color: slategrey;
   color: snow;
   /* animation-duration: 900ms;
@@ -74,9 +74,9 @@ hr {
   text-align: justify;
 }
 .image {
-  margin-left: 20%;
-  height: 60%;
-  width: 60%;
+  margin-left: 30%;
+  height: 40%;
+  width: 40%;
   box-shadow: 5px 5px 5px 2px rgb(1, 1, 1, 0.7);
   animation-duration: 1000ms;
   animation-name: bounceIn;
@@ -105,13 +105,18 @@ hr {
 }
 
 .image-2 {
-  margin-left: 45%;
-  height: 10%;
-  width: 10%;
+  margin-left: 30%;
+  margin-bottom: 5%;
+  height: 40%;
+  width: 40%;
   animation: spin 5s linear infinite;
 }
 @keyframes spin {
   0% { transform: rotate(0deg); }
   50%{ transform: rotate(180deg);}
   100% { transform: rotate(360deg); }
+}
+
+p{
+  text-align: justify;
 }
