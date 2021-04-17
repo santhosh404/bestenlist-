@@ -51,17 +51,17 @@ class Cards extends Component {
 
         <div>
           <h3 class="Heading-3">How We Work !!!</h3>
-          <img src={Picture2} alt="Not Found" class="image-2"/>
         </div>
         <br />
 
         <div class="container">
           <div class="row">
-            <div class="col-sm-3 mb-4">
+            <div class="col-md-3 mb-4">
+            <img src={Picture2} alt="Not Found" class="image-2"/>
               <div class="card-1">
                 <div
                   class="card border-info"
-                  style={{ height: "245px", border: "2px solid" }}
+  
                 >
                   <div
                     class="card-header border-info"
@@ -74,7 +74,7 @@ class Cards extends Component {
                     01 REQUIREMENT ANALYSIS
                   </div>
 
-                  <div class="card-body">
+                  <div class="card-body" style ={{height:"110px"}}>
                     <p class="card-text">
                       Initially, our consultants will discuss the business
                       requirements and vision of the project. Based on it, we
@@ -85,11 +85,12 @@ class Cards extends Component {
               </div>
             </div>
 
-            <div class="col-sm-3 mb-4">
+            <div class="col-md-3 mb-4">
+            <img src={Picture2} alt="Not Found" class="image-2"/>
               <div class="card-2">
                 <div
                   class="card border-info"
-                  style={{ height: "245px", border: "2px solid" }}
+             
                 >
                   <div
                     class="card-header border-info"
@@ -101,7 +102,7 @@ class Cards extends Component {
                   >
                     02 PLANNING & WIRE-FRAMING
                   </div>
-                  <div class="card-body">
+                  <div class="card-body" style ={{height:"110px"}}>
                     <p class="card-text">
                       After analysing the SOW document with the client, we
                       finalize all the requirements with a clear inference. Our
@@ -112,10 +113,11 @@ class Cards extends Component {
               </div>
             </div>
             <div class="col-sm-3 mb-4">
+            <img src={Picture2} alt="Not Found" class="image-2"/>
               <div class="card-3">
                 <div
                   class="card border-info"
-                  style={{ height: "245px", border: "2px solid" }}
+            
                 >
                   <div
                     class="card-header border-info"
@@ -127,7 +129,7 @@ class Cards extends Component {
                   >
                     03 UI DESIGN & PROTOTYPING
                   </div>
-                  <div class="card-body">
+                  <div class="card-body" style ={{height:"110px"}}>
                     <p class="card-text">
                       Based on the wireframe, the design phrase will be
                       initiated. Our experienced designers will create the Ul
@@ -138,14 +140,15 @@ class Cards extends Component {
               </div>
             </div>
             <div class="col-sm-3 mb-4">
+            <img src={Picture2} alt="Not Found" class="image-2"/>
               <div class="card-4">
                 <div
                   class="card border-info"
-                  style={{ height: "245px", border: "2px solid " }}
+                 
                 >
                   <div
                     class="card-header border-info"
-                    style={{
+                    style={{ 
                       border: "0.5px solid",
                       color: "white",
                       backgroundColor: "rgb(91, 192, 222)",
@@ -154,7 +157,7 @@ class Cards extends Component {
                     04 CODING & DEVELOPMENT
                   </div>
 
-                  <div class="card-body">
+                  <div class="card-body" style ={{height:"110px"}}>
                     <p class="card-text">
                       Once the prototype is accepted by the client, our
                       developers will begin the coding and development of the
@@ -165,10 +168,11 @@ class Cards extends Component {
               </div>
             </div>
             <div class="col-sm-3 mb-4">
+            <img src={Picture2} alt="Not Found" class="image-2"/>
               <div class="card-5">
                 <div
                   class="card border-info"
-                  style={{ height: "265px", border: "2px solid" }}
+                
                 >
                   <div
                     class="card-header border-info"
@@ -180,7 +184,7 @@ class Cards extends Component {
                   >
                     05 UNIT TESTING
                   </div>
-                  <div class="card-body">
+                  <div class="card-body"  style ={{height:"110px"}}>
                     <p class="card-text">
                       Each unit of the product will be tested to check the
                       functionality. If there are bugs, it will be rectified in
@@ -190,11 +194,12 @@ class Cards extends Component {
                 </div>
               </div>
             </div>
-            <div class="col-sm-3 mb-4">
+            <div class="col-sm-3 mb-4 py-2">
+            <img src={Picture2} alt="Not Found" class="image-2"/>
               <div class="card-6">
                 <div
                   class="card border-info"
-                  style={{ height: "265px", border: "2px solid" }}
+              
                 >
                   <div
                     class="card-header border-info"
@@ -206,7 +211,7 @@ class Cards extends Component {
                   >
                     06 GUIDED ACCEPTANCE TESTING
                   </div>
-                  <div class="card-body">
+                  <div class="card-body"  style ={{height:"110px"}}>
                     <p class="card-text">
                       After each unit of the product is tested, our QA team will
                       deploy the guided acceptance testing where the entire
@@ -216,11 +221,12 @@ class Cards extends Component {
                 </div>
               </div>
             </div>
-            <div class="col-sm-3 mb-4">
+            <div class="col-sm-3 mb-4 py-2">
+            <img src={Picture2} alt="Not Found" class="image-2"/>
               <div class="card-7">
                 <div
                   class="card border-info"
-                  style={{ height: "265px", border: "2px solid" }}
+               
                 >
                   <div
                     class="card-header border-info"
@@ -232,7 +238,7 @@ class Cards extends Component {
                   >
                     07 RELEASE & IMPLEMENTATION
                   </div>
-                  <div class="card-body">
+                  <div class="card-body"  style ={{height:"110px"}}>
                     <p class="card-text">
                       After the successful testing and quality checking by our
                       QA team, we will release the product live. In addition,
@@ -243,11 +249,12 @@ class Cards extends Component {
                 </div>
               </div>
             </div>
-            <div class="col-sm-3 mb-4">
+            <div class="col-sm-3 mb-4 py-2">
+            <img src={Picture2} alt="Not Found" class="image-2"/>
               <div class="card-8">
                 <div
                   class="card border-info"
-                  style={{ height: "265px", border: "2px solid" }}
+           
                 >
                   <div
                     class="card-header border-info"
@@ -259,8 +266,7 @@ class Cards extends Component {
                   >
                     08 TRAINING & SUPPORT
                   </div>
-
-                  <div class="card-body">
+                  <div class="card-body"  style ={{height:"110px"}}>
                     <p class="card-text">
                       We will provide the required training to the client in
                       using the product and ensure that they are well-versed in
