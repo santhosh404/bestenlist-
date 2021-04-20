@@ -35,7 +35,6 @@ class Models extends Component {
           Open Button
         </Button>
         <Modal
-          class="v-line"
           size="lg"
           show={this.state.show}
           aria-labelledby="example-modal-sizes-title-lg"
@@ -110,74 +109,6 @@ class Models extends Component {
             </button>
           </Modal.Footer>
         </Modal>
-
-        {/* <Modal show={this.state.show}>
-          <Modal.Header
-              style={{
-                paddingLeft: "70px",
-                backgroundColor: "skyblue",
-                color: "white",
-              }}
-          >
-            Fill your requirement. Our Representative will assist you furthur.
-          </Modal.Header>
-
-          <Modal.Body>
-            <form>
-              <div class="form-group">
-                <input
-                  type="text"
-                  class="form-control"
-                  id="recipient-name"
-                  placeholder="Name"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="email"
-                  class="form-control"
-                  id="recipient-name"
-                  placeholder="E-Mail"
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="number"
-                  class="form-control"
-                  id="recipient-name"
-                  placeholder="Contact Number "
-                />
-              </div>
-              <div>
-                <label class="label">What are you looking for?</label>
-                <span class="span-class">
-                  <select class="form-select">
-                    
-                    <option value="1">App development</option>
-                    <option value="2" selected>Web development</option>
-                    <option value="3">Cyber Security</option>
-                    <option value="4">Internet Of Things</option>
-                  </select>
-                </span>
-              </div>
-            </form>
-          </Modal.Body>
-          <Modal.Footer>
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-              onClick={() => {
-                this.handleModal();
-              }}
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">
-              Submit
-            </button>
-          </Modal.Footer>
-        </Modal> */}
       </div>
     );
   }
