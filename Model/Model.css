@@ -1,0 +1,28 @@
+label {
+    float: left;
+    margin-top: 1%;
+}
+  
+.span-class {
+    display:block;
+    overflow: hidden;
+    padding: 0px 4px 0px 10px;
+}
+  
+.form-select {
+    width: 39%;
+}
+
+.v-line{
+    border-left: 5px solid skyblue;
+    height: 100px;
+    margin-left: 55%;
+}
+
+.lottie-anime{
+    margin-left: 48%;
+    position: absolute;
+    top: -60px;
+    left: 90px;
+    
+}
