@@ -13,12 +13,6 @@ label {
     width: 39%;
 }
 
-.v-line{
-    border-left: 5px solid skyblue;
-    height: 100px;
-    margin-left: 55%;
-}
-
 .lottie-anime{
     margin-left: 48%;
     position: absolute;
